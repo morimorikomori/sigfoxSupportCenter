@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 1rem 3rem;
+}
+
+header h1{
+    font-size: medium;
+    margin-left: 30px;
+}
+
+.logo{
+    height: 30px;
+}
+
+.faq h2 {
+    color: #1b3794;
+}
+
+.search h1{
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.search h2{
+    font-size: medium;
+    color: #797d8b;
+}
+
+.search{
+    background-size: cover; /* 画像を要素のサイズに合わせて拡大・縮小 */
+    background-position: center; /* 画像の位置を中央に設定 */
+    background-image: url(../images/search-background.png);
+    padding: 6rem 0;
+}
+
+.search-box{
+    border-radius: 1rem;
+    padding: 4rem;
+    background-color: white;
+    margin: 0 20%;
+}
+
+
+.search-container form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container input[type="text"] {
+    width: 80%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-container button {
+    white-space: nowrap; 
+    overflow: hidden;
+    width: 5rem;
+    background-color: #1b3794;
+    color: white;
+    padding: 14px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.search-container button:hover {
+    background-color: #13286b;
+}
+
+.category-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.category-item {
+    margin: 10px 5px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    cursor: pointer;
+    place-content: center;
+    text-align: center;
+    width: 46%;
+    height: 100px;
+}
+
+.category-item:hover {
+    background-color: #ddd;
+}
+
+.faq{
+    border-radius: 10px;
+    margin: 5% 10%;
+    background-color: #ffffff;
+    padding: 5% 5%;
+}
+
+.faq-item {
+    padding-bottom: 20px;
+}
+
+.contact{
+    border-radius: 10px;
+    margin: 5% 10%;
+    background-color: #ffffff;
+    padding: 5% 5%;
+}
+
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
+
+.form {
+    border-radius: 10px;
+    margin: 5% 10%;
+    background-color: #ffffff;
+    padding: 5% 5%;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.options {
+    margin: 20px 0;
+}
+
+.form button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #1b3794;
+    color: white;
+    font-size: 16px;
+}
+
+.form button:hover {
+    background-color: #13286b;
+}
+
+.hidden {
+    display: none;
+}
