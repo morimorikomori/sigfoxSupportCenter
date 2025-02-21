@@ -44,8 +44,8 @@ header h1{
 }
 
 .search{
-    background-size: cover; /* 画像を要素のサイズに合わせて拡大・縮小 */
-    background-position: center; /* 画像の位置を中央に設定 */
+    background-size: cover;
+    background-position: center;
     background-image: url(../images/search-background.png);
     padding: 6rem 0;
 }
@@ -88,6 +88,23 @@ header h1{
     background-color: #13286b;
 }
 
+/* 
+＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃メインのセクションの統一設定＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃
+*/
+
+main section{
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin: 5% 20%;
+    padding: 5% 5%;
+    background: white;
+    box-shadow: 0 0 10px #0000001a;
+}
+
+/* 
+＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃FAQ＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃
+*/
+
 .category-list {
     display: flex;
     flex-wrap: wrap;
@@ -109,46 +126,25 @@ header h1{
     background-color: #ddd;
 }
 
-.faq{
-    border-radius: 10px;
-    margin: 5% 10%;
-    background-color: #ffffff;
-    padding: 5% 5%;
-}
-
 .faq-item {
     padding-bottom: 20px;
 }
 
-.contact{
-    border-radius: 10px;
-    margin: 5% 10%;
-    background-color: #ffffff;
-    padding: 5% 5%;
+
+/* 
+＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃お問合せフォーム＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃
+*/
+
+.form{
+    text-align: center;
 }
 
-footer {
-    background-color: #f1f1f1;
-    text-align: center;
-    padding: 10px 0;
-    width: 100%;
-    bottom: 0;
-}
-
-.form {
-    border-radius: 10px;
-    margin: 5% 10%;
-    background-color: #ffffff;
-    padding: 5% 5%;
-    text-align: center;
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.form p{
+    margin-top: 10px;
 }
 
 .options {
-    margin: 20px 0;
+    margin: 30px 0;
 }
 
 .form button {
@@ -168,4 +164,18 @@ footer {
 
 .hidden {
     display: none;
+}
+
+
+/* 
+＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃フッター＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃
+*/
+
+
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
 }
